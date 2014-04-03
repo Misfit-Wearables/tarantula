@@ -167,6 +167,7 @@ class ApplicationController < ActionController::Base
 
   def set_current_user_and_project
     @current_user = User.find(request.env['REMOTE_USER'] || session[:user_id])
+    @current_user = Admin.find(@current_user.id) if @current_user.type == 'Admin'
     @project = @current_user.latest_project
   end
 
