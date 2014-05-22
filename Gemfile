@@ -34,10 +34,12 @@ group :test do
   gem "flexmock", "= 0.9.0"
   gem 'machinist', '= 2.0'
   gem 'test-unit', '~> 1.2.3'
+  # Use unicorn as the app server
+  gem 'unicorn'
 end
 
 group :production do
-  gem 'passenger'
+  gem 'unicorn'
 end
 
 group :test, :development do
