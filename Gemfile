@@ -16,7 +16,7 @@ gem 'therubyracer'
 gem 'delayed_job_active_record'
 gem 'daemons'
 gem 'memcache-client'
-gem 'rubyzip', :require => 'zip/zip'
+gem 'rubyzip', '>= 1.2.2', :require => 'zip/zip'
 
 # Gems used only for assets and not required
 # in production environments by default.
