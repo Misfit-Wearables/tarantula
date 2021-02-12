@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem 'rails', '~> 3.2.11'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'mysql2'
 gem 'prawn', '~> 0.5.0.1'
 gem 'prawn-core', '~> 0.5.0.1', :require => 'prawn/core'
