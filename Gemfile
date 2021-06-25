@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem 'rails', '~> 3.2.11'
+gem 'rails', '~> 4.0.0'
 gem 'mysql2'
 gem 'prawn', '~> 0.5.0.1'
 gem 'prawn-core', '~> 0.5.0.1', :require => 'prawn/core'
@@ -13,7 +13,7 @@ gem 'json'
 gem 'rake', '~> 0.8'
 gem 'jquery-rails'
 gem 'therubyracer'
-gem 'delayed_job_active_record'
+gem 'delayed_job_active_record', '>= 4.0.0'
 gem 'daemons'
 gem 'memcache-client'
 gem 'rubyzip', :require => 'zip/zip'
